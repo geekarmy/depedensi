@@ -9,8 +9,8 @@ echo "Install Nginx"
 sudo apt install -y nginx
 
 # Install certbot for Let's Encrypt
-echo "Install certbot for Let's Encrypt"
-sudo apt install -y certbot python3-certbot-nginx
+#echo "Install certbot for Let's Encrypt"
+#sudo apt install -y certbot python3-certbot-nginx
 
 # Install PHP 8.1 and Composer
 echo "Install PHP 8.1 and Composer"
