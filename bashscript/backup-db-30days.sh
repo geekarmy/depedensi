@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Direktori tempat menyimpan backup
-backup_dir="$HOME/backups"
+backup_dir="$HOME/backup-db"
 username="your_username"
 password="your_password"
 
