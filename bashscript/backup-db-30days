@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# Input dari pengguna
-read -p "Masukkan direktori tempat menyimpan backup: " backup_dir
-read -p "Masukkan username MySQL: " username
-read -sp "Masukkan password MySQL: " password
-echo
+# Direktori tempat menyimpan backup
+backup_dir="/path/to/backup/directory"
+username="your_username"
+password="your_password"
 
 # Nama file backup dengan timestamp
 backup_file="$backup_dir/db_backup_$(date +'%Y%m%d_%H%M%S').sql"
